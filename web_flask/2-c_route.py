@@ -1,6 +1,7 @@
-#!/usr/bin/python3
-"""starting a Flask Web Application """
+# !/usr/bin/python3
+""" Starting a Flask Web Application """
 from flask import Flask
+
 app = Flask(__name__)
 
 
@@ -25,3 +26,4 @@ def c_is_fun(text):
 if __name__ == "__main__":
     """ Main Function """
     app.run(host='0.0.0.0', port=5000)
+
